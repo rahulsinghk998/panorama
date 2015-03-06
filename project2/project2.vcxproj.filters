@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{599743b6-9f7a-4bb4-888b-014e3ba1222e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4e66b54b-4d0e-4401-ab4f-421ab80ef371}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5294c161-990d-4772-a6e3-254b450a43f4}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BlendImages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureAlign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalAlign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jacob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P3Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Project2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WarpSpherical.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BlendImages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureAlign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalAlign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jacob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P3Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WarpSpherical.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CImg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

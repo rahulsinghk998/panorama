@@ -1,0 +1,129 @@
+﻿Build started 2014/2/11 19:21:44.
+     1>Project "C:\Users\Administrator\Desktop\project2\package\stitch\project2\ImageLib\ImageLib.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\ImageLib.lastbuildstate".
+       InitializeBuildStatus:
+         Touching ".\Debug\ImageLib.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Convert.cpp Convolve.cpp FileIO.cpp Image.cpp Pyramid.cpp RefCntMem.cpp Transform.cpp WarpImage.cpp
+         Convert.cpp
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\refcntmem.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(166): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(167): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.inl : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\convert.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         Convolve.cpp
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\refcntmem.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(166): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(167): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.inl : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\convolve.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         FileIO.cpp
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\refcntmem.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(166): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(167): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.inl : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\fileio.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\fileio.cpp(115): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\fileio.cpp(250): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         Image.cpp
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\refcntmem.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(166): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(167): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.inl : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         Pyramid.cpp
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\refcntmem.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(166): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(167): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.inl : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\pyramid.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\convolve.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         RefCntMem.cpp
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\refcntmem.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\refcntmem.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         Transform.cpp
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\transform.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\transform.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         WarpImage.cpp
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\refcntmem.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(166): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(167): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.h(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\image.inl : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\transform.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\administrator\desktop\project2\package\stitch\project2\imagelib\warpimage.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Debug\ImageLib.lib" /NOLOGO .\Debug/Convert.obj
+         .\Debug/Convolve.obj
+         .\Debug/FileIO.obj
+         .\Debug/Image.obj
+         .\Debug/Pyramid.obj
+         .\Debug/RefCntMem.obj
+         .\Debug/Transform.obj
+         .\Debug/WarpImage.obj
+         ImageLib.vcxproj -> C:\Users\Administrator\Desktop\project2\package\stitch\project2\ImageLib\.\Debug\ImageLib.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\ImageLib.unsuccessfulbuild".
+         Touching ".\Debug\ImageLib.lastbuildstate".
+     1>Done Building Project "C:\Users\Administrator\Desktop\project2\package\stitch\project2\ImageLib\ImageLib.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.37

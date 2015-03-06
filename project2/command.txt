@@ -1,0 +1,2 @@
+project2 alignAll image_list.txt orientations.txt 10 595 100 10 8 sift
+project2 blendAll orientations.txt outimg.tga 572 200

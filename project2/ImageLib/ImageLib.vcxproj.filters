@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{524600ef-55a4-46be-a06e-f4c63c639f8e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{02bd2cad-c408-45b0-aef7-3fad8eb62911}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Convert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Convolve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pyramid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RefCntMem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WarpImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Convert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Convolve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pyramid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RefCntMem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WarpImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image.inl">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

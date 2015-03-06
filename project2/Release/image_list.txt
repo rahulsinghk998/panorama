@@ -1,0 +1,6 @@
+goodimg_0.tga 0.key
+goodimg_1.tga 1.key
+goodimg_2.tga 2.key
+goodimg_3.tga 3.key
+goodimg_4.tga 4.key
+goodimg_5.tga 5.key

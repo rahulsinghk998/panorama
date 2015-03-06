@@ -1,0 +1,62 @@
+﻿Build started 3/6/2015 3:04:12 PM.
+     1>Project "C:\Users\fzheng\Dropbox\ENGG5104\stitch_p2-2\project2\project2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\project2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BlendImages.cpp
+         BlendImages.cpp
+     1>c:\users\fzheng\dropbox\engg5104\stitch_p2-2\project2\imagelib\Image.h(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\fzheng\dropbox\engg5104\stitch_p2-2\project2\imagelib\Image.h(166): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\fzheng\dropbox\engg5104\stitch_p2-2\project2\imagelib\Image.h(167): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\fzheng\dropbox\engg5104\stitch_p2-2\project2\imagelib\Image.h(168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\fzheng\dropbox\engg5104\stitch_p2-2\project2\imagelib\Image.h(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\fzheng\dropbox\engg5104\stitch_p2-2\project2\CImg.h(14612): warning C4244: 'argument' : conversion from 'const double' to 'const int', possible loss of data
+                 c:\users\fzheng\dropbox\engg5104\stitch_p2-2\project2\CImg.h(14610) : while compiling class template member function 'double cimg_library::CImg<T>::_cimg_math_parser::mp_joff(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\fzheng\dropbox\engg5104\stitch_p2-2\project2\CImg.h(15881) : see reference to class template instantiation 'cimg_library::CImg<T>::_cimg_math_parser' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\fzheng\dropbox\engg5104\stitch_p2-2\project2\CImg.h(15879) : while compiling class template member function 'double cimg_library::CImg<T>::eval(const char *const ,const double,const double,const double,const double) const'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\fzheng\dropbox\engg5104\stitch_p2-2\project2\CImg.h(46710) : see reference to class template instantiation 'cimg_library::CImg<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\fzheng\dropbox\engg5104\stitch_p2-2\project2\CImg.h(14612): warning C4244: 'argument' : conversion from 'const double' to 'const int', possible loss of data
+     1>c:\users\fzheng\dropbox\engg5104\stitch_p2-2\project2\CImg.h(14612): warning C4244: 'argument' : conversion from 'const double' to 'const int', possible loss of data
+     1>c:\users\fzheng\dropbox\engg5104\stitch_p2-2\project2\CImg.h(14612): warning C4244: 'argument' : conversion from 'const double' to 'const int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/project2.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release\project2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release/v4gP1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\project2.lib" /MACHINE:X86 .\Release/BlendImages.obj
+         .\Release/FeatureAlign.obj
+         .\Release/FeatureSet.obj
+         .\Release/GlobalAlign.obj
+         .\Release/jacob.obj
+         .\Release/P3Math.obj
+         .\Release/Project2.obj
+         .\Release/WarpSpherical.obj
+         "C:\Users\fzheng\Dropbox\ENGG5104\stitch_p2-2\project2\ImageLib\Release\ImageLib.lib" /MACHINE:I386 
+         project2.vcxproj -> C:\Users\fzheng\Dropbox\ENGG5104\stitch_p2-2\project2\.\Release\project2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release/project2.exe;#1" /manifest .\Release\project2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\Release\project2.unsuccessfulbuild".
+         Touching ".\Release\project2.lastbuildstate".
+     1>Done Building Project "C:\Users\fzheng\Dropbox\ENGG5104\stitch_p2-2\project2\project2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.40
