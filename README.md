@@ -3,7 +3,7 @@ panorama image stitching based on SIFT features
 
 Thanks for visiting my Github page!
 
-This project is a solution for Assignment 2 of the course Image Stitching in Image Processing and Computer Vision (ENGG 5104, CUHK, 2015 Spring: www.cse.cuhk.edu.hk/engg5104).
+This project is a solution for Assignment 2  Automatic Panoramic Mosaic Stitching of the course Image Processing and Computer Vision (ENGG 5104, CUHK, 2015 Spring: www.cse.cuhk.edu.hk/engg5104).
 
 Based on SIFT features extracted from several images, the project aligns every 2 images using RANSAC algorithm, and stitching all the images to a common plane. For more principle and technical details, refer to project2_pano.htm.pdf.
 
